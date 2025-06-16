@@ -55,3 +55,16 @@ User-friendly design improves customer experience by making it easier to search,
 
 **Importance of Design Properties**
 Identifying color styles and typography in mockups ensures consistency across the app, improves usability, and supports brand identity. It helps developers recreate the intended look and feel during implementation.
+
+## Project Roles and Responsibilities
+
+| Role               | Responsibilities                                                                 |
+|--------------------|----------------------------------------------------------------------------------|
+| **Project Manager** | Oversees the project timeline, coordinates tasks, and ensures timely delivery.  |
+| **Frontend Developers** | Build responsive UI components using React, implement user interactions, and maintain design consistency. |
+| **Backend Developers** | Develop APIs, manage server logic and database communication, and ensure secure data handling. |
+| **Designers**         | Create visual mockups, define UI/UX standards, and collaborate with developers to ensure design fidelity. |
+| **QA/Testers**        | Write test cases, perform functional and UI testing, and report bugs or inconsistencies. |
+| **DevOps Engineers**  | Set up deployment pipelines, manage servers and environments, and ensure app uptime. |
+| **Product Owner**     | Defines project goals and priorities, gathers stakeholder feedback, and ensures features meet user needs. |
+| **Scrum Master**      | Facilitates daily standups, removes blockers, manages sprint planning, and enforces agile best practices. |
