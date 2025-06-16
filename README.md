@@ -32,3 +32,26 @@ StayEase is a full-stack Airbnb clone web application. It allows users to browse
 
 ### Importance of a User-Friendly Design
 User-friendly design improves customer experience by making it easier to search, view, and book properties. This increases satisfaction and conversion rates.
+
+### Figma Design Specifications
+
+**Color Styles**
+- Primary: `#FF5A5F`
+- Secondary: `#008489`
+- Background: `#FFFFFF`
+- Text: `#222222`
+- Secondary Text: `#717171`
+
+**Typography**
+- Font Family: Circular
+- Font Weights:
+  - Book: 400
+  - Medium: 500
+  - Bold: 700
+- Font Sizes:
+  - Primary Text: 16px
+  - Headings: 24px–32px
+  - Secondary Text: 14px
+
+**Importance of Design Properties**
+Identifying color styles and typography in mockups ensures consistency across the app, improves usability, and supports brand identity. It helps developers recreate the intended look and feel during implementation.
