@@ -68,3 +68,26 @@ Identifying color styles and typography in mockups ensures consistency across th
 | **DevOps Engineers**  | Set up deployment pipelines, manage servers and environments, and ensure app uptime. |
 | **Product Owner**     | Defines project goals and priorities, gathers stakeholder feedback, and ensures features meet user needs. |
 | **Scrum Master**      | Facilitates daily standups, removes blockers, manages sprint planning, and enforces agile best practices. |
+
+
+## UI Component Patterns
+
+This section outlines the reusable UI components planned for the Airbnb Clone project. Each component is designed for consistency, responsiveness, and scalability.
+
+### Planned Components
+
+#### 1. Navbar
+- Includes logo, search bar, and user navigation (login/profile).
+- Responsive menu for mobile view.
+
+#### 2. Property Card
+- Displays a property's image, location, title, price per night, and rating.
+- Includes a favorite (heart) button.
+- Designed to be reused in the listing grid.
+
+#### 3. Footer
+- Contains navigation links (e.g., About, Contact, Terms).
+- Social media icons and copyright.
+- Responsive layout for desktop and mobile.
+
+Each component will follow a modular design to ensure maintainability and easy reuse across the application.
