@@ -91,3 +91,20 @@ This section outlines the reusable UI components planned for the Airbnb Clone pr
 - Responsive layout for desktop and mobile.
 
 Each component will follow a modular design to ensure maintainability and easy reuse across the application.
+
+
+
+## Team Roles
+
+| Role                  | Responsibilities                                                                 |
+|-----------------------|----------------------------------------------------------------------------------|
+| **Project Manager**   | Coordinates project tasks, timelines, and communication across the team.        |
+| **Frontend Developer**| Develops responsive UI using React, ensures smooth user experience and consistency with design. |
+| **Backend Developer** | Builds and maintains APIs, handles business logic, authentication, and database operations. |
+| **Database Administrator (DBA)** | Designs the schema, manages database performance, backups, and ensures data integrity. |
+| **UI/UX Designer**    | Creates mockups and prototypes, defines layout and interactions, ensures accessibility. |
+| **DevOps Engineer**   | Sets up and manages deployment pipelines, CI/CD, and monitoring infrastructure. |
+| **QA Tester**         | Writes and runs test cases to verify functionality, usability, and performance; reports bugs. |
+| **Scrum Master**      | Leads agile ceremonies (stand-ups, sprint planning), removes blockers, and tracks progress. |
+| **Product Owner**     | Defines features, prioritizes tasks, and ensures the product meets business needs. |
+
