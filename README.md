@@ -203,6 +203,15 @@ To ensure the security and integrity of the backend APIs, the following key meas
 
 Security is critical to protect user data, maintain trust, and ensure safe transactions within the platform. By implementing these measures, the project safeguards against common threats and unauthorized access.
 
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing, building, and deploying the application whenever changes are made. This ensures faster delivery of features, consistent code quality, and quick identification of issues.
+
+For this project, tools like **GitHub Actions** can be used to automate testing and deployment workflows. Additionally, **Docker** can help containerize the application, making deployments more reliable and scalable.
+
+Implementing a CI/CD pipeline improves development efficiency and reduces the risk of errors in production.
+
+
 
 
 
