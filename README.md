@@ -108,3 +108,20 @@ Each component will follow a modular design to ensure maintainability and easy r
 | **Scrum Master**      | Leads agile ceremonies (stand-ups, sprint planning), removes blockers, and tracks progress. |
 | **Product Owner**     | Defines features, prioritizes tasks, and ensures the product meets business needs. |
 
+
+
+
+## Technology Stack
+
+This project uses the following technologies:
+
+- **React**: A JavaScript library for building user interfaces, used to create the frontend components and manage the user experience.
+- **Node.js**: A JavaScript runtime used to build the backend server, enabling API endpoints and server-side logic.
+- **Express.js**: A web application framework for Node.js, used to simplify API routing and middleware management.
+- **PostgreSQL**: A relational database system used to store and manage the application data such as user accounts, property listings, and bookings.
+- **Prisma**: An ORM (Object-Relational Mapping) tool to interact with the PostgreSQL database in a type-safe way.
+- **GraphQL**: A query language for APIs, used to efficiently fetch and manipulate data between the frontend and backend.
+- **JWT (JSON Web Tokens)**: Used for user authentication and authorization by securely transmitting information between client and server.
+- **Vercel** or **Heroku** (or your chosen deployment platform): For hosting the frontend and backend applications.
+- **GitHub**: Version control system to manage source code and collaboration.
+
