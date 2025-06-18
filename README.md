@@ -191,5 +191,20 @@ Guests can leave reviews and rate properties they have stayed at, providing valu
 Facilitates secure payment transactions for bookings, supporting multiple payment methods. It ensures smooth financial exchanges between guests and hosts.
 
 
+## API Security
+
+To ensure the security and integrity of the backend APIs, the following key measures will be implemented:
+
+- **Authentication**: Using JWT (JSON Web Tokens) to verify the identity of users accessing the API, ensuring only authorized users can access protected resources.
+- **Authorization**: Role-based access control will restrict user actions based on their role (e.g., guest, host, admin), preventing unauthorized operations.
+- **Rate Limiting**: To protect the API from abuse and denial-of-service attacks, rate limiting will limit the number of requests a client can make within a certain timeframe.
+- **Data Validation and Sanitization**: All incoming data will be validated and sanitized to prevent injection attacks and ensure data integrity.
+- **Secure Payment Handling**: Payment-related endpoints will use encrypted channels (HTTPS) and comply with industry standards to protect sensitive financial information.
+
+Security is critical to protect user data, maintain trust, and ensure safe transactions within the platform. By implementing these measures, the project safeguards against common threats and unauthorized access.
+
+
+
+
 
 
