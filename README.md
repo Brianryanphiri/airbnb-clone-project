@@ -125,3 +125,52 @@ This project uses the following technologies:
 - **Vercel** or **Heroku** (or your chosen deployment platform): For hosting the frontend and backend applications.
 - **GitHub**: Version control system to manage source code and collaboration.
 
+
+## Database Design
+
+The database for this project is designed around the following key entities:
+
+### Users
+- **id**: Unique identifier for the user.
+- **name**: Full name of the user.
+- **email**: User’s email address, used for login and communication.
+- **passwordHash**: Hashed password for authentication.
+- **role**: Defines user roles such as guest, host, or admin.
+
+### Properties
+- **id**: Unique identifier for the property.
+- **title**: Name or title of the property listing.
+- **description**: Detailed description of the property.
+- **location**: Geographical location/address.
+- **hostId**: References the user who owns/hosts the property.
+
+### Bookings
+- **id**: Unique identifier for the booking.
+- **propertyId**: References the booked property.
+- **userId**: References the user who made the booking.
+- **startDate**: Booking start date.
+- **endDate**: Booking end date.
+- **status**: Current status of the booking (confirmed, canceled, pending).
+
+### Reviews
+- **id**: Unique identifier for the review.
+- **propertyId**: References the reviewed property.
+- **userId**: References the user who wrote the review.
+- **rating**: Numeric rating score (e.g., 1 to 5).
+- **comment**: Textual feedback from the user.
+
+### Payments
+- **id**: Unique payment transaction identifier.
+- **bookingId**: References the associated booking.
+- **amount**: Total payment amount.
+- **paymentDate**: Date when the payment was made.
+- **paymentMethod**: Method used for payment (credit card, PayPal, etc.).
+
+### Relationships
+- A **User** can host multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- Each **Booking** is linked to one **Property**.
+- **Reviews** are written by **Users** for **Properties** they have booked.
+- Each **Booking** is associated with one **Payment** record.
+
+
